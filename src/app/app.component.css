@@ -1,0 +1,46 @@
+#window {
+    max-height: 100vh;
+    overflow: auto;
+}
+h1{
+    margin:10px;
+    padding-left:150px;
+    padding-top:50px;
+    font-size:40px;
+    font-family:'Times New Roman', Times, serif;
+}
+.row{
+    display:flex;
+    height:100%;
+}
+.column {
+    max-height: 90vh;
+    float: left;
+    max-height: 70%;
+}
+#left.column {
+    width: 75%;
+}
+#right.column{
+    max-height:500px;
+    width:25%;
+    margin:20px;
+    border:double 2px #384874;
+    background-color:lightblue;
+    border-radius:20px;
+    box-shadow:-20px 10px 30px  #384874;
+}
+
+ul {
+    padding: 20px;
+    text-align: left;
+    list-style: none;
+    padding: 20px;
+    font-size: 25px;
+    font-family: Courier New, Courier, monospace;
+    text-decoration-line:none;
+}
+li{
+    padding:20px;
+  
+}

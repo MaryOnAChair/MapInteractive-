@@ -1,0 +1,26 @@
+<div id="window">
+    <div class="row">
+
+        <div class="column" id="left">
+
+            <app-svg (click)="onClick()">
+
+
+            </app-svg>
+        </div>
+
+        <div class="column" id="right">
+            <ul>
+                <li><b>Country Name:</b> {{countryName}}</li>
+
+                <li><b>Country Capital:</b> {{countryCapital}}</li>
+                <li><b>Country Region:</b>{{countryRegion}}</li>
+                <li><b>Income Level:</b>{{countryIncome}}</li>
+                <li><b>Longitude:</b>{{countryLongitude}}</li>
+                <li><b>Latitude:</b>{{countryLatitude}}</li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+<router-outlet />
